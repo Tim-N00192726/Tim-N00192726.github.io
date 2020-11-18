@@ -1,24 +1,42 @@
 .selector-for-some-widget {
   box-sizing: content-box;
 }
-.navbar{
+
+.navbar {
   border-bottom: 1px solid #191919
 }
-.btn-primary{
+
+.btn-primary {
   background-color: #1755B7;
   width: 150;
   margin-bottom: -15px;
   margin-right: 16px;
 }
-.flex-right{
-  display: flex;
-  justify-content: flex-end;
+
+.btn-secondary {
+  background-color: #62E6AC;
+  border-radius: 0;
+  border-style: none;
 }
-.search{
-  width: 300;
-  background-color:  #E3E3E3;
+
+.search {
+  width: 320;
+  background-color: #E3E3E3;
   margin-bottom: -15px;
 }
-.navbar{
-  padding-bottom:  24px;
+
+.navbar {
+  padding-bottom: 24px;
+}
+
+#home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-text {
+  width: 450px;
+  text-align: center;
 }
