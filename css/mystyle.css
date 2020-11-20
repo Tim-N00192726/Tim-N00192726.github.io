@@ -13,12 +13,14 @@
   margin-right: 16px;
 }
 
-
 .btn-success {
   background-color: #62E6AC;
   border-radius: 0;
   border-style: none;
   width: 300px;
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-size: 21px;
+  text-align: center;
 }
 
 .search {
@@ -42,62 +44,156 @@
   text-align: center;
   margin-top: 64px;
 }
-.landing-text h4{
-  font-family: 'Josefin Sans' , 'sans-serif';
+
+.landing-text h4 {
+  font-family: 'Josefin Sans', 'sans-serif';
   font-weight: 700;
   font-size: 64px;
 }
-.landing-text h5{
-  font-family: 'Josefin Sans' , 'sans-serif';
+
+.landing-text h5 {
+  font-family: 'Josefin Sans', 'sans-serif';
   font-weight: 300;
   font-size: 40px;
 }
 
-#image2.landing-images{
+#image2.landing-images {
   width: 133px;
   height: 133px;
   margin-top: 80px;
   margin-left: -180px;
 }
 
-#image1.landing-images{
+#image1.landing-images {
   width: 172px;
   height: 172px;
   margin-top: 250px;
   margin-left: -16px;
 }
-#image3.landing-images{
+
+#image3.landing-images {
   width: 101px;
   height: 101px;
   margin-top: 180px;
   margin-right: 40px;
 }
-#image4.landing-images{
+
+#image4.landing-images {
   width: 172px;
   height: 172px;
   margin-top: 80px;
 }
-#image5.landing-images{
+
+#image5.landing-images {
   width: 133px;
   height: 133px;
-
   margin-top: 200px;
 }
-#image6.landing-images{
+
+#image6.landing-images {
   width: 101px;
   height: 101px;
   margin-top: 300px;
   margin-left: -300px;
+}
 
-}
 @media screen and (max-width: 1120px) {
-  .landing-images{display: none;}
+  .landing-images {
+    display: none;
+  }
 }
-@media screen and (max-width: 768px){
-  .landing-text h5{font-size: 31px; }
+
+@media screen and (max-width: 768px) {
+  .landing-text h5 {
+    font-size: 31px;
+  }
 }
-.hr{
+
+.hr {
   color: #e3e3e3;
   border: 5px solid;
   margin-top: 24px;
+}
+
+.card {
+  border: 0px;
+}
+
+.card-title {
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 400;
+  font-size: 39px;
+}
+
+.card-text {
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 300;
+  font-size: 21px;
+}
+
+.footer-hr {
+  color: #191919;
+  border: 1px solid;
+  margin-bottom: 8px;
+}
+
+.footer {
+  background-color: #e3e3e3;
+  border: 10px solid;
+  border-color: #e3e3e3;
+  height: 48;
+  width: 48;
+}
+
+.table-header {
+  background-color: #e3e3e3;
+  border: 4px solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.table {
+  margin-top: 80px;
+}
+
+.festival-title {
+  text-align: center;
+}
+
+.table-body {
+  border-bottom: 4px solid;
+  border-color: #e3e3e3;
+  height: 100px;
+}
+
+.table-button {
+  width: auto;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.add-button {
+  width: auto;
+  height: auto;
+  background-color: #1755B7;
+  color: #fff;
+  width: 100px;
+  margin-left: 40px;
+}
+.edit-button{
+  background-color: #487FF7;
+  color: #fff;
+  width: 100px;
+  margin-left: 16px;
+}
+.delete-button{
+  background-color: #62E6AC;
+  color: #fff;
+  width: 100px;
+  margin-left: 16px;
+}
+.card-image{
+  max-height: 341px;
+  min-height: 341px;
 }
