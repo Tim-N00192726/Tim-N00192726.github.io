@@ -152,7 +152,17 @@
   border-left: 0px;
   border-right: 0px;
 }
+.table-head-text{
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 400;
+  font-size: 31px;
+}
+.table-text{
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 300;
+  font-size: 31px;
 
+}
 .table {
   margin-top: 80px;
 }
@@ -180,20 +190,35 @@
   color: #fff;
   width: 100px;
   margin-left: 40px;
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 400;
 }
 .edit-button{
   background-color: #487FF7;
   color: #fff;
   width: 100px;
   margin-left: 16px;
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 400;
 }
 .delete-button{
   background-color: #62E6AC;
   color: #fff;
   width: 100px;
   margin-left: 16px;
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 400;
+
 }
 .card-image{
   max-height: 341px;
   min-height: 341px;
+}
+.table-button{
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 400;
+}
+.btn{
+  font-family: 'Josefin Sans', 'sans-serif';
+  font-weight: 400;
 }
